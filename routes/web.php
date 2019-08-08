@@ -1,4 +1,5 @@
 <?php
+use Carbon\Traits\Rounding;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,5 +13,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return response()->redirectTo('/login');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('dashboard');
+
+Route::get('profile', 'ProfileController@edit')->name('profile.edit');
+Route::patch('profile/update', 'ProfileController@update')->name('profile.update');
+Route::patch('profile/password', 'ProfileController@password')->name('profile.password');
+
+Route::resource('user', 'UserController', ['except' => ['show']]);
+
+Route::get('{page}', 'PageController@index')->name('page.index');
