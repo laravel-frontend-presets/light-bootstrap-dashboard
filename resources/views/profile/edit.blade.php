@@ -96,7 +96,7 @@
                         <div class="card-body">
                             <div class="author">
                                 <a href="#">
-                                    <img class="avatar border-gray" src="{{ asset('img/faces/face-3.jpg') }}" alt="...">
+                                    <img class="avatar border-gray" src="{{ asset('light-bootstrap/img/faces/face-3.jpg') }}" alt="...">
                                     <h5 class="title">{{ __('Mike Andrew') }}</h5>
                                 </a>
                                 <p class="description">

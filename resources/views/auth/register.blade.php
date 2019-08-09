@@ -1,7 +1,7 @@
 @extends('layouts.app', ['activePage' => 'register', 'title' => 'LightBootstrapPro'])
 
 @section('content')
-    <div class="full-page register-page section-image" data-color="orange" data-image="{{ asset('img/bg5.jpg') }}">
+    <div class="full-page register-page section-image" data-color="orange" data-image="{{ asset('light-bootstrap/img/bg5.jpg') }}">
         <div class="content">
             <div class="container">
                 <div class="card card-register card-plain text-center">
