@@ -11,15 +11,6 @@
                         <h4 class="text-white">{{ __('Kickstart your Laravel web app like a PRO') }}</h2>
                         <p class="text-lead text-light mt-3 mb-0"> {{ __('Log in and see how you can save more than 90 hours of work with CRUDs for managing: #users, #roles, #items, #categories, #tags and more.') }}</p>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <div class="text-center">
-                            <h3 class="text-lead text-white mt-5 mb-0"> <strong> {{ __('You can log in with:') }}</strong></h3>
-                            <ol class="text-lead text-light mt-3 mb-0"> 
-                                <li> {{ __('Username admin@lightbp.com Password secret') }}</li>
-                            </ol>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
             <div class="container mt-5">    
