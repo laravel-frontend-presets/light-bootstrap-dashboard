@@ -34,13 +34,13 @@
 
     <body>
 
-        <div class="wrapper @guest wrapper-full-page @endguest">
+        <div class="wrapper @if (!auth()->check() || request()->route()->getName() == "") wrapper-full-page @endif">
 
-            @auth
+            @if (auth()->check() && request()->route()->getName() != "")
                 @include('layouts.navbars.sidebar')
-            @endauth
+            @endif
 
-            <div class="@auth main-panel @endauth">
+            <div class="@if (auth()->check() && request()->route()->getName() != "") main-panel @endif">
                 @include('layouts.navbars.navbar')
                 @yield('content')
                 @include('layouts.footer.nav')
