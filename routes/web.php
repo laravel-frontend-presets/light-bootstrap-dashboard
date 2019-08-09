@@ -13,17 +13,19 @@ use Carbon\Traits\Rounding;
 */
 
 Route::get('/', function () {
-    return response()->redirectTo('/login');
+    return response()->view('welcome');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('dashboard');
 
-Route::get('profile', 'ProfileController@edit')->name('profile.edit');
-Route::patch('profile/update', 'ProfileController@update')->name('profile.update');
-Route::patch('profile/password', 'ProfileController@password')->name('profile.password');
+Route::group(['middleware' => 'auth'], function () {
+    Route::get('profile', 'ProfileController@edit')->name('profile.edit');
+    Route::patch('profile/update', 'ProfileController@update')->name('profile.update');
+    Route::patch('profile/password', 'ProfileController@password')->name('profile.password');
 
-Route::resource('user', 'UserController', ['except' => ['show']]);
+    Route::resource('user', 'UserController', ['except' => ['show']]);
 
-Route::get('{page}', 'PageController@index')->name('page.index');
+    Route::get('{page}', 'PageController@index')->name('page.index');
+});

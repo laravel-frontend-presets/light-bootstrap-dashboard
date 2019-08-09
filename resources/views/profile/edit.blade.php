@@ -97,16 +97,16 @@
                             <div class="author">
                                 <a href="#">
                                     <img class="avatar border-gray" src="{{ asset('img/faces/face-3.jpg') }}" alt="...">
-                                    <h5 class="title">Mike Andrew</h5>
+                                    <h5 class="title">{{ __('Mike Andrew') }}</h5>
                                 </a>
                                 <p class="description">
-                                    michael24
+                                    {{ __('michael24') }}
                                 </p>
                             </div>
                             <p class="description text-center">
-                                "Lamborghini Mercy
-                                <br> Your chick she so thirsty
-                                <br> I'm in that two seat Lambo"
+                               {{ __(' "Lamborghini Mercy') }}
+                                <br> {{ __('Your chick she so thirsty') }}
+                                <br> {{ __('I am in that two seat Lambo') }}
                             </p>
                         </div>
                         <hr>

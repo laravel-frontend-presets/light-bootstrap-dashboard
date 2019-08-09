@@ -12,7 +12,7 @@ Tip 2: you can also add an image using data-image tag
         </div>
         <ul class="nav">
             <li class="nav-item @if($activePage == 'dashboard') active @endif">
-                <a class="nav-link" href="{{route('page.index', 'dashboard')}}">
+                <a class="nav-link" href="{{route('dashboard')}}">
                     <i class="nc-icon nc-chart-pie-35"></i>
                     <p>{{ __("Dashboard") }}</p>
                 </a>
