@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="card card-register card-plain text-center">
                     <div class="card-header ">
-                        <h3 class="header text-center">{{ __('Login') }}</h3>
+                        <h3 class="header text-center">{{ __('Register') }}</h3>
                     </div>
                     <div class="card-body ">
                         <div class="row">
