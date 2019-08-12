@@ -53,8 +53,7 @@
                                 <h6 class="heading-small text-muted mb-4">{{ __('Password') }}</h6>
         
                                 @include('alerts.success', ['key' => 'password_status'])
-                                @include('alerts.error_self_update', ['key' => 'not_allow_password'])
-        
+
                                 <div class="pl-lg-4">
                                     <div class="form-group{{ $errors->has('old_password') ? ' has-danger' : '' }}">
                                         <label class="form-control-label" for="input-current-password">
