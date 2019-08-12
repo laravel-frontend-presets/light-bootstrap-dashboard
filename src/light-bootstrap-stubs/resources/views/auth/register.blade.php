@@ -5,9 +5,6 @@
         <div class="content">
             <div class="container">
                 <div class="card card-register card-plain text-center">
-                    <div class="card-header ">
-                        <h3 class="header text-center">{{ __('Register') }}</h3>
-                    </div>
                     <div class="card-body ">
                         <div class="row">
                             <div class="col-md-5 ml-auto">
