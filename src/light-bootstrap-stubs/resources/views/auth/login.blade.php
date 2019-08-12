@@ -3,15 +3,6 @@
 @section('content')
     <div class="full-page section-image" data-color="black" data-image="{{ asset('light-bootstrap/img/full-screen-image-2.jpg') }}">
         <div class="content pt-5">
-            <div class="container ">
-                <div class="col-md-8 col-sm-9 ml-auto mr-auto mb-7">
-                    <div class="text-center">
-                        <h3 class="text-white">{{ __('Welcome to Light Bootstrap Dashboard Pro Laravel Live Preview.') }}</h1>
-                        <h4 class="text-white">{{ __('Kickstart your Laravel web app like a PRO') }}</h2>
-                        <p class="text-lead text-light mt-3 mb-0"> {{ __('Log in and see how you can save more than 90 hours of work with CRUDs for managing: #users, #roles, #items, #categories, #tags and more.') }}</p>
-                    </div>
-                </div>
-            </div>
             <div class="container mt-5">    
                 <div class="col-md-4 col-sm-6 ml-auto mr-auto">
                     <form class="form" method="POST" action="{{ route('login') }}">
