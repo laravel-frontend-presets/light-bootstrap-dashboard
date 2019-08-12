@@ -56,7 +56,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <input type="password" name="password" class="form-control" required >
+                                                <input type="password" name="password" class="form-control" placeholder="Password" required autofocus>
                                             </div>
                                             <div class="form-group">
                                                 <input type="password" name="password_confirmation" placeholder="Password Confirmation" class="form-control" required autofocus>
