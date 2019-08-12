@@ -6,16 +6,7 @@
             <div class="container">
                 <div class="card card-register card-plain text-center">
                     <div class="card-header ">
-                        <div class="row  justify-content-center">
-                            <div class="col-md-8">
-                                <div class="header-text">
-                                    <h2 class="card-title">{{ __('Welcome to Light Bootstrap Dashboard Pro Laravel Live Preview.') }}</h2>
-                                    <h4 class="card-subtitle">{{ __('Kickstart your Laravel web app like a PRO') }}</h4>
-                                    <p class="text-lead text-light mt-3 mb-0"> {{ __('Log in and see how you can save more than 90 hours of work with CRUDs for managing: #users, #roles, #items, #categories, #tags and more.') }}</p>
-                                    <hr />
-                                </div>
-                            </div>
-                        </div>
+                        <h3 class="header text-center">{{ __('Login') }}</h3>
                     </div>
                     <div class="card-body ">
                         <div class="row">
