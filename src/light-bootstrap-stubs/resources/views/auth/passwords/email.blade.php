@@ -12,15 +12,8 @@
                                 <div class="card-header">{{ __('Reset Password') }}</div>
 
                                 <div class="card-body">
-                                    @if (session('status'))
-                                        <div class="alert alert-success" role="alert">
-                                            {{ session('status') }}
-                                        </div>
-                                    @elseif(session('error'))
-                                        <div class="alert alert-danger" role="alert">
-                                            {{ session('error') }}
-                                        </div>
-                                    @endif
+                                    @include('alerts.success')
+                                    @include('alerts.errors' )
                                     <div class="form-group row">
                                         <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 

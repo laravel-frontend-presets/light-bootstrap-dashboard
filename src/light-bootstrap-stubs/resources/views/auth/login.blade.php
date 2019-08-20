@@ -41,7 +41,7 @@
                                         <div class="form-group">
                                             <div class="form-check">
                                                 <label class="form-check-label d-flex align-items-center">
-                                                    <input class="form-check-input" type="checkbox" name="remember"  id="remember" checked>
+                                                    <input class="form-check-input" type="checkbox" name="remember"  id="remember">
                                                     <span class="form-check-sign"></span>
                                                     {{ __('Remember me') }}
                                                 </label>
@@ -58,7 +58,7 @@
                                         {{ __('Forgot password?') }}
                                         </a>
                                         <a class="btn btn-link" style="color:#23CCEF" href="{{ route('register') }}">
-                                            {{ __('Register') }}
+                                            {{ __('Create account') }}
                                         </a>
                                     </div>
                                     

@@ -2,7 +2,7 @@
 
 <a href="https://packagist.org/packages/laravel-frontend-presets/light-bootstrap-dashboard"><img src="https://poser.pugx.org/laravel-frontend-presets/light-bootstrap-dashboard/v/stable.svg" alt="Latest Stable Version"></a> ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
-*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard
+*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/?ref=lbdl-readme
 
 ![Product Image](https://github.com/creativetimofficial/public-assets/raw/master/light-bootstrap-dashboard-laravel/intro.gif)
 
