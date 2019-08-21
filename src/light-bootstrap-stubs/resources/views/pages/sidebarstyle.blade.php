@@ -57,7 +57,7 @@
             </li>
             <li class="button-container">
                 <div class="">
-                    <a href="https://light-bootrap-dashboard.creative-tim.com/docs/tutorial-components.html" target="_blank" class="btn btn-default btn-block btn-fill">{{ __('View Documentation') }}</a>
+                    <a href="https://light-bootrap-dashboard-laravel.creative-tim.com/docs/tutorial-components.html" target="_blank" class="btn btn-default btn-block btn-fill">{{ __('View Documentation') }}</a>
                 </div>
             </li>
             <li class="header-title pro-title text-center">{{ __('Want more components?') }}</li>
