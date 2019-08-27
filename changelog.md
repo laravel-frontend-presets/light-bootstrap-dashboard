@@ -2,16 +2,8 @@
 
 All notable changes to `Light Bootstrap Dashboard` frontend preset for Laravel will be documented in this file.
 
-## Version 1.0.0
-
 ### Added
 - Light Bootstrap Dashboard v1.0.0 frontend theme
 - Laravel Auth preset
 - Change user profile
 - User CRUD
-
-## Version 1.0.0 - Version 1.0.4
-- Bugfixes
-
-## Version 1.0.5
-- Add link to pro theme
