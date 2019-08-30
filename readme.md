@@ -154,7 +154,7 @@ public function store(UserRequest $request, User $model)
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Demo
 
@@ -168,7 +168,7 @@ public function store(UserRequest $request, User $model)
 [View More](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
 
 ## Documentation
-The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme).
+The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/getting-started/laravel-setup.html&ref=lbdl-readme).
 
 ## File Structure
 ```
@@ -466,9 +466,9 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdlp-readme>
+- Demo: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
 - Download Page: <https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
-- Documentation: <https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme>
+- Documentation: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/getting-started/laravel-setup.html&ref=lbdl-readme>
 - License Agreement: <https://www.creative-tim.com/license?ref=lbdl-readme>
 - Support: <https://www.creative-tim.com/contact-us?ref=lbdl-readme>
 - Issues: [Github Issues Page](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard-laravel/issues)
@@ -476,7 +476,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Change log
 
