@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'upgrade', 'title' => 'LightBootstrap', 'navName' => 'Upgrade', 'activeButton' => 'laravel'])
+@extends('layouts.app', ['activePage' => 'upgrade', 'title' => 'Light Bootstrap Dashboard Laravel by Creative Tim & UPDIVISION', 'navName' => 'Upgrade', 'activeButton' => 'laravel'])
 
 @section('content')
     <div class="content">
@@ -9,7 +9,7 @@
                         <div class="col-md-8 ml-auto mr-auto">
                             <div class="card">
                                 <div class="header text-center">
-                                    <h4 class="title">Light Bootstrap Dashboard PRO</h4>
+                                    <h4 class="title">Light Bootstrap Dashboard</h4>
                                     <p class="category">Are you looking for more components? Please check our Premium Version of Light Bootstrap Dashboard.</p>
                                     <br>
                                 </div>
@@ -59,7 +59,7 @@
                                             <tr>
                                                 <td></td>
                                                 <td>Free</td>
-                                                <td>Just $39</td>
+                                                <td>Just $149</td>
                                             </tr>
                                             <tr class="last-row">
                                                 <td></td>
@@ -67,7 +67,7 @@
                                                     <a href="#" class="btn btn-round btn-fill btn-default disabled">Current Version</a>
                                                 </td>
                                                 <td>
-                                                    <a target="_blank" href="http://www.creative-tim.com/product/light-bootstrap-dashboard-pro/?ref=lbdupgrade" class="btn btn-round btn-fill btn-info">Upgrade to PRO</a>
+                                                    <a target="_blank" href=" https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-laravel" class="btn btn-round btn-fill btn-info">Upgrade to PRO</a>
                                                 </td>
                                             </tr>
                                         </tbody>

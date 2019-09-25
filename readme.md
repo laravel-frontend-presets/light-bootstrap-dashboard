@@ -1,8 +1,8 @@
-# [Light Bootstrap Dashboard Laravel - Free Frontend Preset for Laravel](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Light%20Bootstrap%20Dashboard%20Laravel%20is%20a%20Free%20Frontend%20Preset%20for%20Laravel%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//light-bootstrap-dashboard-laravel.creative-tim.com/%20%23%light%20bootstrap%20%23design%20%23dashboard%20%23laravel%20%23free%20via%20%40CreativeTim)
+# [Light Bootstrap Dashboard Laravel - Free Frontend Preset for Laravel](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?ref=lbdl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Light%20Bootstrap%20Dashboard%20Laravel%20is%20a%20Free%20Frontend%20Preset%20for%20Laravel%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//light-bootstrap-dashboard-laravel.creative-tim.com/%20%23%light%20bootstrap%20%23design%20%23dashboard%20%23laravel%20%23free%20via%20%40CreativeTim)
 
-<a href="https://packagist.org/packages/laravel-frontend-presets/light-bootstrap-dashboard"><img src="https://poser.pugx.org/laravel-frontend-presets/light-bootstrap-dashboard/v/stable.svg" alt="Latest Stable Version"></a> ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+<a href="https://packagist.org/packages/laravel-frontend-presets/light-bootstrap"><img src="https://poser.pugx.org/laravel-frontend-presets/light-bootstrap-dashboard/v/stable.svg" alt="Latest Stable Version"></a> ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
-*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/ref=lbdl-readme
+*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/?ref=lbdl-readme
 
 ![Product Image](https://github.com/creativetimofficial/public-assets/raw/master/light-bootstrap-dashboard-laravel/intro.gif)
 
@@ -154,7 +154,7 @@ public function store(UserRequest $request, User $model)
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/154/original/opt_md_laravel_thumbnail.jpg?1554814177)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg?1513017628)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Demo
 
@@ -168,7 +168,7 @@ public function store(UserRequest $request, User $model)
 [View More](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
 
 ## Documentation
-The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme).
+The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/tutorial-components.html&ref=lbdl-readme).
 
 ## File Structure
 ```
@@ -466,17 +466,17 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdlp-readme>
+- Demo: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
 - Download Page: <https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
-- Documentation: <https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme>
-- License Agreement: <https://www.creative-tim.com/license>
-- Support: <https://www.creative-tim.com/contact-us>
+- Documentation: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/tutorial-components.html&ref=lbdl-readme>
+- License Agreement: <https://www.creative-tim.com/license?ref=lbdl-readme>
+- Support: <https://www.creative-tim.com/contact-us?ref=lbdl-readme>
 - Issues: [Github Issues Page](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard-laravel/issues)
 - **Dashboards:**
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/154/original/opt_md_laravel_thumbnail.jpg?1554814177)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg?1513017628)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Change log
 
@@ -498,15 +498,15 @@ We use GitHub Issues as the official bug tracker for the Light Bootstrap Dashboa
 ## Licensing
 
 - Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
-- [Creative Tim License](https://www.creative-tim.com/license).
+- [Creative Tim License](https://www.creative-tim.com/license?ref=lbdl-readme).
 
 
 ## Useful Links
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=lbdl-readme) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/?ref=lbdl-readme)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=lbdl-readme) from Creative Tim
 - [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=lbdl-readme) from Creative Tim
 - [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=lbdl-readme) from Creative Tim
 - [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=lbdl-readme) from Creative Tim

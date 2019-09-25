@@ -57,13 +57,13 @@
             </li>
             <li class="button-container">
                 <div class="">
-                    <a href="https://light-bootrap-dashboard-laravel.creative-tim.com/docs/tutorial-components.html" target="_blank" class="btn btn-default btn-block btn-fill">{{ __('View Documentation') }}</a>
+                    <a href="https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/tutorial-components.html" target="_blank" class="btn btn-default btn-block btn-fill">{{ __('View Documentation') }}</a>
                 </div>
             </li>
             <li class="header-title pro-title text-center">{{ __('Want more components?') }}</li>
             <li class="button-container">
                 <div class="">
-                    <a href="https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel-pro" target="_blank" class="btn btn-warning btn-block btn-fill">{{ __('Get The PRO Version!') }}</a>
+                    <a href="https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-laravel" target="_blank" class="btn btn-warning btn-block btn-fill">{{ __('Get The PRO Version!') }}</a>
                 </div>
             </li>
             <li class="header-title" id="sharrreTitle">{{ __('Thank you for sharing!') }}</li>

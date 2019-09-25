@@ -32,7 +32,7 @@ Tip 2: you can also add an image using data-image tag
                     <ul class="nav">
                         <li class="nav-item @if($activePage == 'user') active @endif">
                             <a class="nav-link" href="{{route('profile.edit')}}">
-                                <i class="nc-icon nc-circle-09"></i>
+                                <i class="nc-icon nc-single-02"></i>
                                 <p>{{ __("User Profile") }}</p>
                             </a>
                         </li>
@@ -58,7 +58,7 @@ Tip 2: you can also add an image using data-image tag
                     <p>{{ __("Typography") }}</p>
                 </a>
             </li>
-            <li class="nav-item @if($activePage == 'Icons') active @endif">
+            <li class="nav-item @if($activePage == 'icons') active @endif">
                 <a class="nav-link" href="{{route('page.index', 'icons')}}">
                     <i class="nc-icon nc-atom"></i>
                     <p>{{ __("Icons") }}</p>
