@@ -39,7 +39,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 ### By using the archive
 
 1. In your application's root create a **presets** folder
-2. [Download an archive](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard-laravel/archive/master.zip) of the repo and unzip it
+2. [Download an archive](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/archive/master.zip) of the repo and unzip it
 3. Copy and paste **light-bootstrap-dashboard-master** folder in presets (created in step 2) and rename it to **light-bootstrap**
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\LightBootstrapPreset\\": "presets/light-bootstrap/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
@@ -54,7 +54,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 Register a user or login using **admin@lightbp.com** and **secret** and start testing the preset (make sure to run the migrations and seeders for these credentials to be available).
 
-Besides the dashboard and the auth pages this preset also has a user management example and an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user. 
+Besides the dashboard and the auth pages this preset also has an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user. 
 
 ### Dashboard
 
@@ -85,54 +85,6 @@ public function rules()
         'password' => ['required', 'min:6', 'confirmed', 'different:old_password'],
         'password_confirmation' => ['required', 'min:6'],
     ];
-}
-```
-
-### User management
-
-The preset comes with a user management option out of the box. To access this click the "**User Management**" link in the left sidebar or add **/user** to the url.
-The first thing you will see is the listing of the existing users. You can add new ones by clicking the "**Add user**" button (above the table on the right). On the Add user page you will see the form that allows you to do this. All pages are generate using blade templates:
-
-```
-<div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-    <label class="form-control-label" for="input-name">
-        <i class="w3-xxlarge fa fa-user"></i>{{ __('Name') }}
-    </label>
-    <input type="text" name="name" id="input-name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Name') }}" value="{{ old('name') }}" required autofocus>
-
-    @include('alerts.feedback', ['field' => 'name'])
-</div>
-```
-
-Also validation rules were added so you will know exactely what to enter in the form fields (see `App\Http\Requests\UserRequest`). Note that these validation rules also apply for the user edit option.
-
-```
-public function rules()
-{
-    return [
-        'name' => [
-            'required', 'min:3'
-        ],
-        'email' => [
-            'required', 'email', Rule::unique((new User)->getTable())->ignore($this->route()->user->id ?? null)
-        ],
-        'password' => [
-            $this->route()->user ? 'nullable' : 'required', 'confirmed', 'min:6'
-        ]
-    ];
-}
-```
-
-Once you add more users, the list will get bigger and for every user you will have edit and delete options (access these options by clicking the three dotted menu that appears at the end of every line). 
-
-All the sample code for the user management can be found in `App\Http\Controllers\UserController`. See store method example bellow:
-
-```
-public function store(UserRequest $request, User $model)
-{
-    $model->create($request->merge(['password' => Hash::make($request->get('password'))])->all());
-
-    return redirect()->route('user.index')->withStatus(__('User successfully created.'));
 }
 ```
 ## Table of Contents
@@ -387,8 +339,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │       ├── profile
 │       │   └── edit.blade.php
 │       ├── users
-│       │   ├── create.blade.php
-│       │   ├── edit.blade.php
 │       │   └── index.blade.php
 │       └── welcome.blade.php
 ├── routes
@@ -413,38 +363,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │   │   │   └── bDASqge6ugwwnupCJQxc6UpeCzU5mWnlBf3OtHbV
 │   │   ├── testing
 │   │   └── views
-│   │       ├── 04b958597ac91af5b8ebb75038df5d900297b6a7.php
-│   │       ├── 05829f4c1315a44d2904e84933b90d416144f630.php
-│   │       ├── 05c5b9d007a38fc4b785152d465481de7a93bed6.php
-│   │       ├── 0634ddc2d2d29656d3f4576c6d7b623791e2518c.php
-│   │       ├── 24f1083e9b186b7f55cc8c6649c5dbdd3dacdc62.php
-│   │       ├── 27934ff5ea17b73d8fa6e99667900193091d90a1.php
-│   │       ├── 3165176f58ae96f4f02e42be6b4515eebfdfb36f.php
-│   │       ├── 57323755d2658f87f735b891a73af859f3b26e47.php
-│   │       ├── 59ef904b35dc7837736542c9700d1ee72a871dba.php
-│   │       ├── 5c19801a059c8b15432eed2cbbc1a15cb266275a.php
-│   │       ├── 5de1492ae4c3ed70b23edf4e796ae22e1e8a1714.php
-│   │       ├── 617582690557c899eb5cfe5c3358d722ae038c37.php
-│   │       ├── 63779ff629d693180563c0b4d1c4c0734b517c9c.php
-│   │       ├── 642c59cb17d565e1fd038dd4268ec2642d9a2ccf.php
-│   │       ├── 709415e6e1f3c7c40434b424285d28e7565ba8e1.php
-│   │       ├── 7446704d3fce78ba7e3fc792f8c9ffbbf5c71897.php
-│   │       ├── 7a7c0c219ee4d45946f89ad299f9445cdaaa53d8.php
-│   │       ├── 7d0fb617fee39e1a3352563d6ab5daeebf8c4bc6.php
-│   │       ├── 8faacd4a293449e932d4c5af9a503d69d45fcd0b.php
-│   │       ├── a4190e3cd4cb63dce221782d8d14f0385da2d90f.php
-│   │       ├── a72b165d948d61cf2e235be6154470a8937a3bfc.php
-│   │       ├── bc28b536048dacbd265d18e8f2cd044f55bd7cbd.php
-│   │       ├── bd791cb3de118fb816e39a0e7c83ab29633d81b4.php
-│   │       ├── cd6ad60026b669d0ebdbdfb8483dc28be06ecdce.php
-│   │       ├── d0bc6a520831ef96fb30a18c8be7139451677793.php
-│   │       ├── d495b8de2860ebdac0f385d83d6c9d6d76c09718.php
-│   │       ├── d52af56743543221251745c688e164f2e81259fe.php
-│   │       ├── d530924a1a223139a7890de97017614e8ce1247b.php
-│   │       ├── df19ac7c63550101893f8c4b5adbabe5fbe75b2f.php
-│   │       ├── e480cadcf735d470f8aee77b42d1b5f734adf1b0.php
-│   │       ├── e95e32fec19936a599650d431a2eccc2f77e7bfa.php
-│   │       └── f28fc2172870340ba966e4550a16b92964e9cd93.php
 │   └── logs
 │       ├── laravel-2019-08-07.log
 │       ├── laravel-2019-08-08.log
