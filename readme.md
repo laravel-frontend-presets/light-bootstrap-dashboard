@@ -339,8 +339,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │       ├── profile
 │       │   └── edit.blade.php
 │       ├── users
-│       │   ├── create.blade.php
-│       │   ├── edit.blade.php
 │       │   └── index.blade.php
 │       └── welcome.blade.php
 ├── routes
@@ -365,38 +363,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │   │   │   └── bDASqge6ugwwnupCJQxc6UpeCzU5mWnlBf3OtHbV
 │   │   ├── testing
 │   │   └── views
-│   │       ├── 04b958597ac91af5b8ebb75038df5d900297b6a7.php
-│   │       ├── 05829f4c1315a44d2904e84933b90d416144f630.php
-│   │       ├── 05c5b9d007a38fc4b785152d465481de7a93bed6.php
-│   │       ├── 0634ddc2d2d29656d3f4576c6d7b623791e2518c.php
-│   │       ├── 24f1083e9b186b7f55cc8c6649c5dbdd3dacdc62.php
-│   │       ├── 27934ff5ea17b73d8fa6e99667900193091d90a1.php
-│   │       ├── 3165176f58ae96f4f02e42be6b4515eebfdfb36f.php
-│   │       ├── 57323755d2658f87f735b891a73af859f3b26e47.php
-│   │       ├── 59ef904b35dc7837736542c9700d1ee72a871dba.php
-│   │       ├── 5c19801a059c8b15432eed2cbbc1a15cb266275a.php
-│   │       ├── 5de1492ae4c3ed70b23edf4e796ae22e1e8a1714.php
-│   │       ├── 617582690557c899eb5cfe5c3358d722ae038c37.php
-│   │       ├── 63779ff629d693180563c0b4d1c4c0734b517c9c.php
-│   │       ├── 642c59cb17d565e1fd038dd4268ec2642d9a2ccf.php
-│   │       ├── 709415e6e1f3c7c40434b424285d28e7565ba8e1.php
-│   │       ├── 7446704d3fce78ba7e3fc792f8c9ffbbf5c71897.php
-│   │       ├── 7a7c0c219ee4d45946f89ad299f9445cdaaa53d8.php
-│   │       ├── 7d0fb617fee39e1a3352563d6ab5daeebf8c4bc6.php
-│   │       ├── 8faacd4a293449e932d4c5af9a503d69d45fcd0b.php
-│   │       ├── a4190e3cd4cb63dce221782d8d14f0385da2d90f.php
-│   │       ├── a72b165d948d61cf2e235be6154470a8937a3bfc.php
-│   │       ├── bc28b536048dacbd265d18e8f2cd044f55bd7cbd.php
-│   │       ├── bd791cb3de118fb816e39a0e7c83ab29633d81b4.php
-│   │       ├── cd6ad60026b669d0ebdbdfb8483dc28be06ecdce.php
-│   │       ├── d0bc6a520831ef96fb30a18c8be7139451677793.php
-│   │       ├── d495b8de2860ebdac0f385d83d6c9d6d76c09718.php
-│   │       ├── d52af56743543221251745c688e164f2e81259fe.php
-│   │       ├── d530924a1a223139a7890de97017614e8ce1247b.php
-│   │       ├── df19ac7c63550101893f8c4b5adbabe5fbe75b2f.php
-│   │       ├── e480cadcf735d470f8aee77b42d1b5f734adf1b0.php
-│   │       ├── e95e32fec19936a599650d431a2eccc2f77e7bfa.php
-│   │       └── f28fc2172870340ba966e4550a16b92964e9cd93.php
 │   └── logs
 │       ├── laravel-2019-08-07.log
 │       ├── laravel-2019-08-08.log
