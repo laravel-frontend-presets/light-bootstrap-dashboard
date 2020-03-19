@@ -3,7 +3,7 @@
 namespace LaravelFrontendPresets\LightBootstrapPreset;
 
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Console\Presets\Preset;
+use Laravel\Ui\Presets\Preset;
 
 class LightBootstrapPreset extends Preset
 {

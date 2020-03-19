@@ -30,11 +30,12 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 ### Via composer
 
 1. `Cd` to your Laravel app  
-2. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
-3. Run `php artisan preset light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+2. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
+3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
+4. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-4. In your terminal run `composer dump-autoload`
-5. Run `php artisan migrate --seed` to create basic users table
+5. In your terminal run `composer dump-autoload`
+6. Run `php artisan migrate --seed` to create basic users table
 
 ### By using the archive
 
@@ -44,10 +45,11 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\LightBootstrapPreset\\": "presets/light-bootstrap/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\LightBootstrapPreset\LightBootstrapPresetServiceProvider::class` to `config/app.php` file
-7. In your terminal run `composer dump-autoload`
-8. Run `php artisan preset light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+7. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
+8. In your terminal run `composer dump-autoload`
+9. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-9. Run `php artisan migrate --seed` to create basic users table
+10. Run `php artisan migrate --seed` to create basic users table
 
 
 ## Usage
