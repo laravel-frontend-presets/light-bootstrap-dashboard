@@ -76,7 +76,7 @@ Tip 2: you can also add an image using data-image tag
                     <p>{{ __("Notifications") }}</p>
                 </a>
             </li>
-            <li class="nav-item active active-pro">
+            <li class="nav-item active-pro bg-danger">
                 <a class="nav-link active" href="{{route('page.index', 'upgrade')}}">
                     <i class="nc-icon nc-alien-33"></i>
                     <p>{{ __("Upgrade to PRO") }}</p>
