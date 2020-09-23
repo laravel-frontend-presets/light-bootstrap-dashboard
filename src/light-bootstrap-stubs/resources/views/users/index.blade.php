@@ -187,8 +187,8 @@
                             <p>{{ __("Notifications") }}</p>
                         </a>
                     </li>
-                    <li class="nav-item active-pro">
-                        <a class="nav-link active" href="{{route('page.index', 'upgrade')}}">
+                    <li class="nav-item">
+                        <a class="nav-link active bg-danger" href="{{route('page.index', 'upgrade')}}">
                             <i class="nc-icon nc-alien-33"></i>
                             <p>{{ __("Upgrade to PRO") }}</p>
                         </a>
