@@ -4,6 +4,7 @@ namespace LaravelFrontendPresets\LightBootstrapPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
+use Laravel\Ui\UiCommand; use Laravel\Ui\AuthCommand;
 
 class LightBootstrapPresetServiceProvider extends ServiceProvider
 {
@@ -14,7 +15,7 @@ class LightBootstrapPresetServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('light-bootstrap', function ($command) {
+        UiCommand::macro('light-bootstrap', function ($command) {
             LightBootstrapPreset::install();
             
             $command->info('Light Bootstrap scaffolding installed successfully.');
