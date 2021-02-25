@@ -1,11 +1,12 @@
 {
-    "name": "laravel-frontend-presets/light-bootstrap",
+    "name": "laravel-frontend-presets/light-bootstrap-dashboard",
     "description": "Laravel 5.x Front-end preset for argon",
     "license": "MIT",
     "homepage": "https://github.com/creativetimofficial/light-bootstrap-dashboard-laravel",
     "keywords": ["Laravel", "Preset", "Light Bootstrap"],
     "require": {
-        "laravel/framework": "^5.5"
+        "laravel/framework": "^8.0",
+        "laravel/legacy-factories": "^1.0"
     },
     "autoload": {
         "psr-4": {

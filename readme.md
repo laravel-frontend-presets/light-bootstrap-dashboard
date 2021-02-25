@@ -1,12 +1,12 @@
-# [Light Bootstrap Dashboard Laravel - Free Frontend Preset for Laravel](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Light%20Bootstrap%20Dashboard%20Laravel%20is%20a%20Free%20Frontend%20Preset%20for%20Laravel%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//light-bootstrap-dashboard-laravel.creative-tim.com/%20%23%light%20bootstrap%20%23design%20%23dashboard%20%23laravel%20%23free%20via%20%40CreativeTim)
+# [Light Bootstrap Dashboard Laravel - Free Frontend Preset for Laravel](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?ref=lbdl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Light%20Bootstrap%20Dashboard%20Laravel%20is%20a%20Free%20Frontend%20Preset%20for%20Laravel%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//light-bootstrap-dashboard-laravel.creative-tim.com/%20%23%light%20bootstrap%20%23design%20%23dashboard%20%23laravel%20%23free%20via%20%40CreativeTim)
 
-<a href="https://packagist.org/packages/laravel-frontend-presets/light-bootstrap-dashboard"><img src="https://poser.pugx.org/laravel-frontend-presets/light-bootstrap-dashboard/v/stable.svg" alt="Latest Stable Version"></a> ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/light-bootstrap-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
-*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/ref=lbdl-readme
+*Frontend version*: Light Bootstrap Dashboard v2.1.1. More info at https://www.creative-tim.com/product/light-bootstrap-dashboard/?ref=lbdl-readme
 
 ![Product Image](https://github.com/creativetimofficial/public-assets/raw/master/light-bootstrap-dashboard-laravel/intro.gif)
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 5.5 and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
 
 ## Note
 
@@ -21,7 +21,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
  - Mac: https://wpshout.com/quick-guides/how-to-install-mamp-on-your-mac/
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md   
-And Laravel: https://laravel.com/docs/5.8/installation
+And Laravel: https://laravel.com/docs/7.x/installation
 
 ## Installation
 
@@ -30,31 +30,33 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 ### Via composer
 
 1. `Cd` to your Laravel app  
-2. Install this preset via `composer require laravel-frontend-presets/light-bootstrap-dashboard`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
-3. Run `php artisan preset light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+2. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
+3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 8.x can auto detect the package.
+4. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-4. In your terminal run `composer dump-autoload`
-5. Run `php artisan migrate --seed` to create basic users table
+5. In your terminal run `composer dump-autoload`
+6. Run `php artisan migrate --seed` to create basic users table
 
 ### By using the archive
 
 1. In your application's root create a **presets** folder
-2. [Download an archive](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard-laravel/archive/master.zip) of the repo and unzip it
+2. [Download an archive](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/archive/master.zip) of the repo and unzip it
 3. Copy and paste **light-bootstrap-dashboard-master** folder in presets (created in step 2) and rename it to **light-bootstrap**
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\LightBootstrapPreset\\": "presets/light-bootstrap/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\LightBootstrapPreset\LightBootstrapPresetServiceProvider::class` to `config/app.php` file
-7. In your terminal run `composer dump-autoload`
-8. Run `php artisan preset light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+7. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
+8. In your terminal run `composer dump-autoload`
+9. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
-9. Run `php artisan migrate --seed` to create basic users table
+10. Run `php artisan migrate --seed` to create basic users table
 
 
 ## Usage
 
 Register a user or login using **admin@lightbp.com** and **secret** and start testing the preset (make sure to run the migrations and seeders for these credentials to be available).
 
-Besides the dashboard and the auth pages this preset also has a user management example and an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user. 
+Besides the dashboard and the auth pages this preset also has an edit profile page. All the necessary files (controllers, requests, views) are installed out of the box and all the needed routes are added to `routes/web.php`. Keep in mind that all of the features can be viewed once you login using the credentials provided above or by registering your own user. 
 
 ### Dashboard
 
@@ -64,7 +66,7 @@ You can access the dashboard either by using the "**Dashboard**" link in the lef
 
 You have the option to edit the current logged in user's profile (change name, email and password). To access this page just click the "**User profile**" link in the left sidebar or by adding **/profile** in the url.
 
-The `App\Htttp\Controlers\ProfileController` handles the update of the user information. 
+The `App\Http\Controllers\ProfileController` handles the update of the user information. 
 
 ```
 public function update(ProfileRequest $request)
@@ -87,54 +89,6 @@ public function rules()
     ];
 }
 ```
-
-### User management
-
-The preset comes with a user management option out of the box. To access this click the "**User Management**" link in the left sidebar or add **/user** to the url.
-The first thing you will see is the listing of the existing users. You can add new ones by clicking the "**Add user**" button (above the table on the right). On the Add user page you will see the form that allows you to do this. All pages are generate using blade templates:
-
-```
-<div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-    <label class="form-control-label" for="input-name">
-        <i class="w3-xxlarge fa fa-user"></i>{{ __('Name') }}
-    </label>
-    <input type="text" name="name" id="input-name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Name') }}" value="{{ old('name') }}" required autofocus>
-
-    @include('alerts.feedback', ['field' => 'name'])
-</div>
-```
-
-Also validation rules were added so you will know exactely what to enter in the form fields (see `App\Http\Requests\UserRequest`). Note that these validation rules also apply for the user edit option.
-
-```
-public function rules()
-{
-    return [
-        'name' => [
-            'required', 'min:3'
-        ],
-        'email' => [
-            'required', 'email', Rule::unique((new User)->getTable())->ignore($this->route()->user->id ?? null)
-        ],
-        'password' => [
-            $this->route()->user ? 'nullable' : 'required', 'confirmed', 'min:6'
-        ]
-    ];
-}
-```
-
-Once you add more users, the list will get bigger and for every user you will have edit and delete options (access these options by clicking the three dotted menu that appears at the end of every line). 
-
-All the sample code for the user management can be found in `App\Http\Controllers\UserController`. See store method example bellow:
-
-```
-public function store(UserRequest $request, User $model)
-{
-    $model->create($request->merge(['password' => Hash::make($request->get('password'))])->all());
-
-    return redirect()->route('user.index')->withStatus(__('User successfully created.'));
-}
-```
 ## Table of Contents
 
 * [Versions](#versions)
@@ -154,7 +108,7 @@ public function store(UserRequest $request, User $model)
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/154/original/opt_md_laravel_thumbnail.jpg?1554814177)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg?1513017628)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Demo
 
@@ -168,7 +122,7 @@ public function store(UserRequest $request, User $model)
 [View More](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
 
 ## Documentation
-The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme).
+The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [website](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/tutorial-components.html&ref=lbdl-readme).
 
 ## File Structure
 ```
@@ -387,8 +341,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │       ├── profile
 │       │   └── edit.blade.php
 │       ├── users
-│       │   ├── create.blade.php
-│       │   ├── edit.blade.php
 │       │   └── index.blade.php
 │       └── welcome.blade.php
 ├── routes
@@ -413,38 +365,6 @@ The documentation for the Light Bootstrap Dashboard Laravel is hosted at our [we
 │   │   │   └── bDASqge6ugwwnupCJQxc6UpeCzU5mWnlBf3OtHbV
 │   │   ├── testing
 │   │   └── views
-│   │       ├── 04b958597ac91af5b8ebb75038df5d900297b6a7.php
-│   │       ├── 05829f4c1315a44d2904e84933b90d416144f630.php
-│   │       ├── 05c5b9d007a38fc4b785152d465481de7a93bed6.php
-│   │       ├── 0634ddc2d2d29656d3f4576c6d7b623791e2518c.php
-│   │       ├── 24f1083e9b186b7f55cc8c6649c5dbdd3dacdc62.php
-│   │       ├── 27934ff5ea17b73d8fa6e99667900193091d90a1.php
-│   │       ├── 3165176f58ae96f4f02e42be6b4515eebfdfb36f.php
-│   │       ├── 57323755d2658f87f735b891a73af859f3b26e47.php
-│   │       ├── 59ef904b35dc7837736542c9700d1ee72a871dba.php
-│   │       ├── 5c19801a059c8b15432eed2cbbc1a15cb266275a.php
-│   │       ├── 5de1492ae4c3ed70b23edf4e796ae22e1e8a1714.php
-│   │       ├── 617582690557c899eb5cfe5c3358d722ae038c37.php
-│   │       ├── 63779ff629d693180563c0b4d1c4c0734b517c9c.php
-│   │       ├── 642c59cb17d565e1fd038dd4268ec2642d9a2ccf.php
-│   │       ├── 709415e6e1f3c7c40434b424285d28e7565ba8e1.php
-│   │       ├── 7446704d3fce78ba7e3fc792f8c9ffbbf5c71897.php
-│   │       ├── 7a7c0c219ee4d45946f89ad299f9445cdaaa53d8.php
-│   │       ├── 7d0fb617fee39e1a3352563d6ab5daeebf8c4bc6.php
-│   │       ├── 8faacd4a293449e932d4c5af9a503d69d45fcd0b.php
-│   │       ├── a4190e3cd4cb63dce221782d8d14f0385da2d90f.php
-│   │       ├── a72b165d948d61cf2e235be6154470a8937a3bfc.php
-│   │       ├── bc28b536048dacbd265d18e8f2cd044f55bd7cbd.php
-│   │       ├── bd791cb3de118fb816e39a0e7c83ab29633d81b4.php
-│   │       ├── cd6ad60026b669d0ebdbdfb8483dc28be06ecdce.php
-│   │       ├── d0bc6a520831ef96fb30a18c8be7139451677793.php
-│   │       ├── d495b8de2860ebdac0f385d83d6c9d6d76c09718.php
-│   │       ├── d52af56743543221251745c688e164f2e81259fe.php
-│   │       ├── d530924a1a223139a7890de97017614e8ce1247b.php
-│   │       ├── df19ac7c63550101893f8c4b5adbabe5fbe75b2f.php
-│   │       ├── e480cadcf735d470f8aee77b42d1b5f734adf1b0.php
-│   │       ├── e95e32fec19936a599650d431a2eccc2f77e7bfa.php
-│   │       └── f28fc2172870340ba966e4550a16b92964e9cd93.php
 │   └── logs
 │       ├── laravel-2019-08-07.log
 │       ├── laravel-2019-08-08.log
@@ -466,17 +386,17 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdlp-readme>
+- Demo: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
 - Download Page: <https://www.creative-tim.com/product/light-bootstrap-dashboard-laravel?ref=lbdl-readme>
-- Documentation: <https://light-bootstrap-dashboard-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=lbdl-readme>
-- License Agreement: <https://www.creative-tim.com/license>
-- Support: <https://www.creative-tim.com/contact-us>
+- Documentation: <https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel/?start-page=/docs/tutorial-components.html&ref=lbdl-readme>
+- License Agreement: <https://www.creative-tim.com/license?ref=lbdl-readme>
+- Support: <https://www.creative-tim.com/contact-us?ref=lbdl-readme>
 - Issues: [Github Issues Page](https://github.com/laravel-frontend-presets/light-bootstrap-dashboard-laravel/issues)
 - **Dashboards:**
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/50/original/opt_md_thumbnail.jpg?1522232645)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/154/original/opt_md_laravel_thumbnail.jpg?1554814177)](https://light-bootstrap-dashboard-laravel.creative-tim.com/?ref=lbdl-readme)
+| [![Light Bootstrap Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg?1513017628)](https://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html?ref=lbdl-readme) | [![Light Bootstrap Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/213/original/opt_lbd_laravel_thumbnail.jpg?1567087339)](https://www.creative-tim.com/live/light-bootstrap-dashboard-laravel?ref=lbdl-readme)
 
 ## Change log
 
@@ -497,16 +417,15 @@ We use GitHub Issues as the official bug tracker for the Light Bootstrap Dashboa
 
 ## Licensing
 
-- Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
-- [Creative Tim License](https://www.creative-tim.com/license).
-
+- Copyright Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
+- Licensed under MIT (https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/blob/master/license.md)
 
 ## Useful Links
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
-- [Blog Creative Tim](http://blog.creative-tim.com/)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=lbdl-readme) (earn money)
+- [Blog Creative Tim](http://blog.creative-tim.com/?ref=lbdl-readme)
+- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=lbdl-readme) from Creative Tim
 - [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=lbdl-readme) from Creative Tim
 - [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=lbdl-readme) from Creative Tim
 - [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=lbdl-readme) from Creative Tim
