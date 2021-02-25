@@ -417,9 +417,8 @@ We use GitHub Issues as the official bug tracker for the Light Bootstrap Dashboa
 
 ## Licensing
 
-- Copyright 2019 Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
-- [Creative Tim License](https://www.creative-tim.com/license?ref=lbdl-readme).
-
+- Copyright Creative Tim (https://www.creative-tim.com/?ref=lbdl-readme)
+- Licensed under MIT (https://github.com/laravel-frontend-presets/light-bootstrap-dashboard/blob/master/license.md)
 
 ## Useful Links
 
