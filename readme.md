@@ -6,7 +6,7 @@
 
 ![Product Image](https://github.com/creativetimofficial/public-assets/raw/master/light-bootstrap-dashboard-laravel/intro.gif)
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
 ## Note
 
@@ -21,7 +21,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
  - Mac: https://wpshout.com/quick-guides/how-to-install-mamp-on-your-mac/
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md   
-And Laravel: https://laravel.com/docs/8.x/installation
+And Laravel: https://laravel.com/docs/9.x/installation
 
 ## Installation
 
@@ -31,7 +31,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 1. `Cd` to your Laravel app  
 2. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
-3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 8.x can auto detect the package.
+3. Install this preset via `composer require laravel-frontend-presets/light-bootstrap`. No need to register the service provider. Laravel 9.x can auto detect the package.
 4. Run `php artisan ui light-bootstrap` command to install the Light Bootstrap preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 5. In your terminal run `composer dump-autoload`
